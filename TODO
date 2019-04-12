@@ -1,0 +1,6 @@
+1. Generate the default output filename from the input filename and the speed settings.
+  e.g.  ./jumpcutter.py --input_file file.mp4 --silent_threshold 8 --sounded_speed 2.1 > file_st8_ss2.1.mp4
+2. Video file mentioned as arguments, (that exist) default to the input.
+  e.g.  ./jumpcutter.py file.mp4 --silent_threshold 8 --sounded_speed 2.1 > file_st8_ss2.1.mp4
+3. read the local default from a file ~/.config/jumpcutter/jumpcutter.cnf || ./.jumpcutter.cnf
+  e.g.  ./jumpcutter.py file.mp4 > file_st8_ss2.1.mp4
